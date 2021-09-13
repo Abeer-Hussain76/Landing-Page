@@ -3,21 +3,21 @@
 ## Table of Contents
 
 * Description
-* Images
+* Screen shoots
 
-# Description
-This project has HTML, CSS and JS styling to display an interactive Landing Page.\
-I'm employing three function:\
+### Description
+This project has HTML, CSS and JS styling to display an interactive Landing Page. I used three functions:
+
 1. createItems to create dynamic navigation
 2. secActivation to get the active section
-3. activLink to get the active link \
+3. activLink to get the active link 
 
 At the end I'm appling the event on the window. 
 
-# Images
-![section 1 is activated and link 1] (sec 1.PNG) 
-![section 2 is activated and link 2] (sec 2.PNG) 
-![section 3 is activated and link 3] (sec 3.PNG) 
-![section 4 is activated and link 4] (sec 4.PNG) 
+### Screen shoots
+![sec 1](https://user-images.githubusercontent.com/81306700/133011072-6b99f701-0689-4b47-901d-8c21bb04d8bd.PNG)
+![sec 2](https://user-images.githubusercontent.com/81306700/133011140-54151972-6426-4b38-8a4c-af2dab27c496.PNG)
+![sec 3](https://user-images.githubusercontent.com/81306700/133011146-bee456a2-0db4-41bc-a408-5b12bd74a574.PNG)
+![sec 4](https://user-images.githubusercontent.com/81306700/133011166-4f6d413b-bea2-43f4-b66e-dee280ba1071.PNG)
 
 
