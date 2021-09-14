@@ -11,7 +11,7 @@ This project have a multi-section landing page, with a navigation menu that buil
 dynamically based on the amount of content ('section') that is added to the page.
 
 # Files
-This project build with:
+This project build with:/
     1. index.html 
     2. css styling sheet
     3. js 
