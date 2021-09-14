@@ -45,9 +45,11 @@ const defineActiveSec = function (){
         }
     });
 }
+
+// get all links 
+const links = document.querySelectorAll('.navbar__menu a');
+
 const activLink = function(section){
-    // get all links 
-     const links = document.querySelectorAll('.navbar__menu a');
     //looping through all links(NodeList) 
     links.forEach((link) => {
         //remove all the active class from all links
@@ -57,6 +59,18 @@ const activLink = function(section){
                 //add the active class on the link that corresponding to the active section only
                 link.classList.add('your-active-class');
             }                              
+    });
+}
+/*-------------------- Adding click Event On the links to scroll smoothly --------------------*/
+const scrolling = () => {
+    links.forEach((link) => {
+        link.addEventListener('click',(e) => {
+            e.preventDefault();
+
+            link.getAttribute('href').scrollIntoView({
+                behavior : 'smooth'
+            });
+        });
     });
 }
 /*-------------------- Adding Scroll Event On the Window Object --------------------*/
